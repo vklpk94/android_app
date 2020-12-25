@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context=".Controlling">
+   <Button
+       android:id="@+id/swt1"
+       android:layout_width="150dp"
+       android:layout_height="100dp"
+       android:text="Motor_1"
+       android:layout_marginTop="100dp"
+       android:layout_marginLeft="135dp"></Button>
+   <Button
+       android:id="@+id/swt2"
+       android:layout_width="150dp"
+       android:layout_height="100dp"
+       android:text="Motor_2"
+       android:layout_marginTop="220dp"
+       android:layout_marginLeft="135dp"></Button>
+
+   <Button
+       android:id="@+id/swt3"
+       android:layout_width="150dp"
+       android:layout_height="100dp"
+       android:layout_marginLeft="135dp"
+       android:layout_marginTop="340dp"
+       android:text="Motor_3"></Button>
+
+   <Button
+       android:id="@+id/left_button"
+       android:layout_width="150dp"
+       android:layout_height="100dp"
+       android:layout_marginLeft="50dp"
+       android:layout_marginTop="460dp"
+       android:text="LEFT"></Button>
+
+   <Button
+       android:id="@+id/right_button"
+       android:layout_width="150dp"
+       android:layout_height="100dp"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="460dp"
+       android:text="RIGHT"></Button>
+
+</RelativeLayout>
